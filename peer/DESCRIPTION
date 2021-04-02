@@ -1,0 +1,13 @@
+Package: peer
+Type: Package
+Title: Parallel estimation with extracted layers and regularization 
+Version: 1.0
+Date: 2021-04-01
+Author: Ruipeng Dong
+Maintainer: Ruipeng Dong <drp@mail.ustc.edu.cn>
+Description: Including parallel estimation with extracted layers and regularization (PEER) and sequential estimation with eigen decomposition (SEED).
+License: GPL (>= 3.0)
+Encoding: UTF-8
+Depends: R (>= 3.3), stats, utils
+Imports: rrpack, glmnet, BeSS, MASS, secure
+RoxygenNote: 7.1.1
