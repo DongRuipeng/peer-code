@@ -1,14 +1,12 @@
 # The simulation code of PEER
 
 ## Requirement
---------------
 
 * Pre-installed R packages : rrpack, glmnet, BeSS, MASS, secure, doParallel, foreach
 
 * Installation of peer package: R command "install_github("DongRuipeng/peer-code/peer")" in "devtools" R packages 
 
 ## Simulation script
---------------------
 
 * All simulations results are save as RData files firstly then formatted as corresponding tables and figures. 
 
@@ -23,6 +21,5 @@
 * After getting the corresponding RData file, scripts in folder format-script will generate the final tables and figures. 
 
 ## Supplement
--------------
 
-* We employ clustering computing to speed up the computation. The parameter "cl.num" is the thread number, which should be suitable for the current computing device. 
+* We employ clustering computing to speed up the computation. The parameter "cl.num" is the thread number, which should be suitable to the current computing device. 
