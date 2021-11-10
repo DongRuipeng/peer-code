@@ -191,7 +191,6 @@ sim.setup <- function(n = 100, p = 100, q = 100, nrank = 3, s = 4, snr = 0.5, mi
 #' @return 
 #'  \item{X}{predictor matrix}
 #'  \item{Y}{response matrix}
-#' @export
 #' @import MASS stats
 gen.data <- function(d, U, V, n, snr, Xsigma) {
   D <- diag(d)
